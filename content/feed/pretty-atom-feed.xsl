@@ -62,7 +62,7 @@ https://nicolas-hoizey.com/feeds/all.xml
               <xsl:attribute name="href">
                 <xsl:value-of select="/atom:feed/atom:link[not(@rel)]/@href"/>
               </xsl:attribute>
-              Visit Website &#x2192;
+              Visit Blog &#x2192;
             </a>
           </header>
           <h2>Recent Items</h2>
