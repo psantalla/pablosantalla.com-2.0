@@ -1,0 +1,4 @@
+- ¿Cómo me siento?
+- Si hubiera algo que puedo completar en los próximos 20 minutos, ¿qué sería?
+- Si repito las acciones de esta semana durante 10 años, ¿a dónde me llevaría? ¿Es ahí donde quiero estar?
+- Cuál es el objetivo y cuál es el cuello de botella.

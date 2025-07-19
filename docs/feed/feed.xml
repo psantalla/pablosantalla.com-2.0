@@ -3,34 +3,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Pablo Santalla&#39;s Blog</title>
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
-  <link href="https://pablosantalla.com/feed/feed.xml" rel="self" />
-  <link href="https://pablosantalla.com/blog" />
+  <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
+  <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
   <updated>2025-07-18T00:00:00Z</updated>
-  <id>https://pablosantalla.com/blog</id>
+  <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
   <entry>
     <title>Embracing simplicity</title>
-    <link href="https://pablosantalla.com/blog/embracing-simplicity/" />
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/embracing-simplicity/" />
     <updated>2025-07-18T00:00:00Z</updated>
-    <id>https://pablosantalla.com/blog/embracing-simplicity/</id>
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/embracing-simplicity/</id>
     <content type="html">&lt;p&gt;Paullum deliquit, ponderibus modulisque suis ratio utitur. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Gallia est omnis divisa in partes tres, quarum.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Mi primer post desde Obsidian</title>
-    <link href="https://pablosantalla.com/blog/first-post/" />
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/first-post/" />
     <updated>2025-01-18T00:00:00Z</updated>
-    <id>https://pablosantalla.com/blog/first-post/</id>
-    <content type="html">&lt;p&gt;Y esto ya lo veo en mi móvil.&lt;/p&gt;
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/first-post/</id>
+    <content type="html">&lt;p&gt;Y esto ya lo veo en mi movilazo.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Mi primer post desde Obsidians</title>
-    <link href="https://pablosantalla.com/blog/mu%20bien/" />
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/mu%20bien/" />
     <updated>2025-01-16T00:00:00Z</updated>
-    <id>https://pablosantalla.com/blog/mu%20bien/</id>
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/mu%20bien/</id>
     <content type="html">&lt;p&gt;Esta sería la prueba definitiva, supongo.sadf
 Cierto es que esto no debería editarlo, ya que esto está pensado para hacerse desde Obsidian. Pero, por qué no, a ver qué pasa.&lt;/p&gt;
 </content>
