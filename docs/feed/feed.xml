@@ -5,11 +5,22 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/blog" />
-  <updated>2018-09-30T00:00:00Z</updated>
+  <updated>2025-01-18T00:00:00Z</updated>
   <id>https://pablosantalla.com/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
+  <entry>
+    <title>Mi primer post desde Obsidian</title>
+    <link href="https://pablosantalla.com/blog/obsidian-posts/first-post/" />
+    <updated>2025-01-18T00:00:00Z</updated>
+    <id>https://pablosantalla.com/blog/obsidian-posts/first-post/</id>
+    <content type="html">&lt;h1 id=&quot;mi-primer-post-desde-obsidian&quot;&gt;Mi primer post desde Obsidian&lt;/h1&gt;
+&lt;p&gt;Este es un [[enlace wiki]] de prueba.&lt;/p&gt;
+&lt;p&gt;¡Funciona!!&lt;/p&gt;
+&lt;p&gt;Entonces esto ya está a tope y funcionando!!!!!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>This is my fourth post</title>
     <link href="https://pablosantalla.com/blog/fourthpost/" />
