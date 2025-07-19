@@ -22,7 +22,7 @@ jobs:
      with:
        repository: psantalla/obsidian-vault-private
        token: ${{ secrets.OBSIDIAN_VAULT_TOKEN }}
-       path: obsidian-vault
+       path: temp-obsidian-vault
 
    - name: Setup Node.js
      uses: actions/setup-node@v4
@@ -35,8 +35,8 @@ jobs:
 
    - name: Sync posts from Obsidian
      run: |
-       if [ -d "obsidian-vault/Public thoughts" ]; then
-         cp -r "obsidian-vault/Public thoughts/"* content/blog/ 2>/dev/null || true
+       if [ -d "temp-obsidian-vault/Public thoughts" ]; then
+         cp -r "temp-obsidian-vault/Public thoughts/"* content/blog/ 2>/dev/null || true
        fi
 
        if git diff --quiet && git diff --staged --quiet; then
