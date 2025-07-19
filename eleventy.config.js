@@ -73,7 +73,7 @@ export default async function(eleventyConfig) {
 		metadata: {
 			language: "en",
 			title: "Pablo Santalla's Blog",
-			subtitle: "This is a longer description about your blog.",
+			subtitle: "From poems to code, maybe ocasinal letter to my daughter so she'll eventually read them.",
 			base: "https://pablosantalla.com/blog",
 			author: {
 				name: "Pablo Santalla"
@@ -146,7 +146,7 @@ export const config = {
 		input: "content",          // default: "."
 		includes: "../_includes",  // default: "_includes" (`input` relative)
 		data: "../_data",          // default: "_data" (`input` relative)
-		output: "_site"
+		output: "docs"
 	},
 
 	// -----------------------------------------------------------------
