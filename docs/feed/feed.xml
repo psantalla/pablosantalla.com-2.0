@@ -23,7 +23,16 @@
     <link href="https://pablosantalla.com/blog/first-post/" />
     <updated>2025-01-18T00:00:00Z</updated>
     <id>https://pablosantalla.com/blog/first-post/</id>
-    <content type="html">&lt;p&gt;Esta sería la prueba definitiva, supongo.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Y esto ya lo veo en mi móvil.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Mi primer post desde Obsidians</title>
+    <link href="https://pablosantalla.com/blog/mu%20bien/" />
+    <updated>2025-01-16T00:00:00Z</updated>
+    <id>https://pablosantalla.com/blog/mu%20bien/</id>
+    <content type="html">&lt;p&gt;Esta sería la prueba definitiva, supongo.sadf
+Cierto es que esto no debería editarlo, ya que esto está pensado para hacerse desde Obsidian. Pero, por qué no, a ver qué pasa.&lt;/p&gt;
 </content>
   </entry>
 </feed>
