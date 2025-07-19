@@ -1,0 +1,276 @@
+.hid {
+  display: none !important;
+}
+
+.ut-beautiful-shadow {
+  box-shadow: 3px 6px 14px 0px rgba(19, 17, 23, 0.10), 11px 23px 25px 0px rgba(19, 17, 23, 0.09), 24px 52px 34px 0px rgba(19, 17, 23, 0.05), 44px 92px 41px 0px rgba(19, 17, 23, 0.01), 68px 143px 44px 0px rgba(19, 17, 23, 0.00);
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* only desktop */
+  .hid-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 991px) {
+
+  /* only tablet */
+  .hid-tablet {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+
+  /* only mobile */
+  .hid-mobile {
+    display: none;
+  }
+}
+
+.ut-bg--about {
+  background-image: url("/assets/pablo-santalla-about.png");
+  /* Ajusta la imagen de fondo al ancho completo */
+  background-position: right;
+  background-size: cover;
+  /* Alinea la imagen de fondo a la izquierda */
+}
+
+.ut-of--hid {
+  overflow: hidden;
+}
+
+.ut-link {
+  color: inherit;
+}
+
+.ut-center-inline {
+  margin-inline: auto;
+}
+
+.ut-obj-respond {
+  /* make objects (svg, img) to addapt to their containers */
+  width: 100%;
+}
+
+.ut-border--sc {
+  /* border used for showcase sreenshots or frames */
+  border: var(--sp--2xs) solid;
+  border-radius: var(--sp--s);
+}
+
+.ut-link._ut-link--branch,
+.ut-link._ut-link--inner,
+.ut-link._ut-link--not-underline,
+.ut-link._ut-link--alt {
+  text-decoration: none;
+}
+
+.ut-link._ut-link--inner--notice {
+  text-decoration: underline;
+  text-decoration-color: var(--c--pine);
+  text-decoration-thickness: 2px;
+  text-underline-offset: var(--sp--2xs);
+}
+
+.ut-link._ut-link--inner--notice:hover {
+  transition: all .25s;
+  color: var(--c--accent--80);
+  text-decoration-color: var(--c--accent--80);
+  text-underline-offset: calc(var(--sp--2xs) / 1.75);
+}
+
+.ut-link._ut-link--branch:hover,
+.ut-link._ut-link--inner:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--c--pine);
+  text-decoration-thickness: 2px;
+  text-underline-offset: var(--sp--2xs);
+}
+
+.ut-link._ut-link--alt {
+  /* used in a dark background */
+  color: var(--c--white--80);
+}
+
+.ut-link._ut-link--alt:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--c--white--80);
+  text-decoration-thickness: 2px;
+  text-underline-offset: var(--sp--2xs);
+}
+
+.ut-link._ut-link—disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.ut-link._ut-link—disabled._ut-link--soon::after {
+  animation: dot-animation 2.5s infinite;
+  content: "";
+}
+
+@keyframes dot-animation {
+  0% {
+    content: "";
+  }
+
+  25% {
+    content: ".";
+  }
+
+  50% {
+    content: "..";
+  }
+
+  75% {
+    content: "...";
+  }
+
+  100% {
+    content: "";
+  }
+}
+
+.ut-front {
+  z-index: 1;
+}
+
+.ut-front--01 {
+  z-index: 2;
+}
+
+.ut-back {
+  z-index: -1;
+}
+
+.ut-highlight {
+  transition: all .2s;
+  box-shadow: inset 0 -.55em 0 var(--c--accent--80);
+}
+
+.ut-highlight:hover {
+  box-shadow: inset 0 -1.1em 0 var(--c--accent--80);
+}
+
+.ut-opacity--90 {
+  opacity: 0.9;
+}
+
+.ut-opacity--80 {
+  opacity: 0.8;
+}
+
+.ut-opacity--70 {
+  opacity: 0.7;
+}
+
+.ut-opacity--60 {
+  opacity: 0.6;
+}
+
+.ut-opacity--50 {
+  opacity: 0.5;
+}
+
+.ut-opacity--40 {
+  opacity: 0.4;
+}
+
+.ut-opacity--30 {
+  opacity: 0.3;
+}
+
+.ut-opacity--20 {
+  opacity: 0.2;
+}
+
+.ut-opacity--10 {
+  opacity: 0.1;
+}
+
+.ut-opacity--0 {
+  opacity: 0;
+}
+
+.ut-border-r--whole {
+  border-radius: var(--sp--7xl);
+}
+
+.ut-glitch {
+  display: inline-block;
+  position: relative;
+}
+
+.ut-glitch::before,
+.ut-glitch::after {
+  position: absolute;
+  left: 0;
+  /* Utiliza la variable --c--pine para el color */
+  opacity: 0.6;
+  content: attr(data-text);
+  color: var(--c--pine);
+  /* Opacidad reducida para un efecto más sutil */
+}
+
+.ut-glitch::before {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  animation: glitchTop 2s linear infinite;
+}
+
+.ut-glitch::after {
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  animation: glitchBottom 3s linear infinite;
+}
+
+@keyframes glitchTop {
+
+  2%,
+  64% {
+    transform: translate(1px, -1px);
+  }
+
+  4%,
+  60% {
+    transform: translate(-1px, 1px);
+  }
+
+  62% {
+    transform: translate(3px, -1px) skew(-8deg);
+  }
+}
+
+@keyframes glitchBottom {
+
+  2%,
+  64% {
+    transform: translate(-1px, 0);
+  }
+
+  4%,
+  60% {
+    transform: translate(-1px, 0);
+  }
+
+  62% {
+    transform: translate(-3px, 2px) skew(12deg);
+  }
+}
+
+/*  */
+
+
+.ut-non-clickable {
+  cursor: default;
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.ut-non-clickable:focus {
+  outline: none;
+}

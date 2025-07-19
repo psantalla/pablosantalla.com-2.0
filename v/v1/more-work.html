@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Santalla's portfolio: about me</title>
+    <meta name="description"
+        content="The place where we'll uncover if I'm more of a sweet or salty enthusiast. Check out my latest projects and get a sneak peek into my work life.">
+    <link rel="icon" href="/assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:image" content="/assets/about-og.png">
+    <script src="/javascript/custom.js"></script>
+    <script src="/javascript/clock.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+        // Only load on production environment.
+        if (window.location.host !== 'pablosantalla.com')
+            window.goatcounter = { no_onload: true }
+    </script>
+    <script data-goatcounter="https://analytics.pablosantalla.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+
+<body class="st-blog"> <!-- classes to horizontally align the page wrapper -->
+    <div class="st-col"> <!-- page wrapper, following a column structure -->
+        <header class="c-bg--white">
+            <!-- nav and hero are (always) wrapped — from here i can control their color background and height -->
+            <div id="navbar-js"></div>
+            <div class="st-col st-mw--compact sp-ga--xl sp-py--5xl sp-py--3xl--mobile sp-px--3xl sp-px--l--mobile">
+                <div class="st-col sp-ga--m"> <!-- <div class="t-s--m c-el--pine--70 com-clock--la"></div> -->
+                    <!-- style classes need to be place before the component class in order to work -->
+                    <h1 class="t-s--5xl">Where my old projects collect memories
+                    </h1>
+                </div>
+                <p class="t-s--l">Step into my dusty time capsule, where old projects from the archives come to life.
+                    They may be a bit dusty, and I might cringe a little, but each one tells a story I hold dear.
+                </p>
+                <div id="warning" class="hid st-col sp-ga--l">
+                    <p style="margin-bottom: calc(-1 * var(--sp--l));" class="com-cool-msg t-s--m"><span
+                            class="t-w--b">This page is currently showing confidential
+                            content</span>. To uphold projects and clients' privacy, please refrain from sharing this
+                        content
+                        through screenshots or any other means. Any attempts to intercept or break this security may be
+                        subject to tracking.</p>
+                </div>
+                <div class="st-col st-app sp-ga--m"> <input type="password" id="password">
+                    <button class="com-btn _com-btn--submit" onclick="checkPassword()">Unlock content</button>
+                </div>
+                <span id="access-request" class="t-s--m t-w--b">Need access? Please, <a
+                        class="ut-link _ut-link--not-underline ut-highlight"
+                        href="mailto:pablo@pablosantalla.com?subject=Portfolio%20access%20request&body=Hi%2C%20I'd%20like%20to%20request%20access%20to%20your%20protected%20project%20showcase%20in%20your%20portfolio.%0D%0A%0D%0AName%3A%0D%0ACompany%20name%3A">request
+                        a password</a> to see the private content.
+                </span>
+            </div>
+        </header>
+        <!-- Hey there! How's it going? I guess you're trying to unearth the protected content on this page. If you do manage to find it, I assure you it's not some treasure trove. I could have added seven more layers of security, but honestly, it's not worth it. It's nothing special, not a state secret—just a way to avoid exposing projects just out of sheer curiosity.
+
+Actually, it's far from being a top-secret government project; it's just a way of not putting projects out there for the world to see without purpose. If you shoot me an email at pablo@pablosantalla.com with some info about your company and the reason you want to check out these projects, I'll be happy to provide access. Even if you just want to know more about my work style, again, I'd be happy to share that info.
+
+Anyway, have a good day! If you do decide to keep searching and you've made it this far, I'm sure your perseverance will lead you to a good outcome. Either way, cheers to web development! -->
+        <div id="protected-content-js"></div>
+        <footer>
+            <div id="footer-js"></div>
+        </footer>
+    </div> <!-- page wrapper ends here -->
+    </div>
+    <script src="javascript/dynamic/navbar.js"></script>
+    <script src="javascript/dynamic/protected-content.js"></script>
+    <script src="javascript/dynamic/footer.js"></script>
+</body>
+
+</html>
