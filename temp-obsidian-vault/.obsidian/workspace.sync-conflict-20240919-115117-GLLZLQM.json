@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "f387100836565670",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6fcdce52a89a080",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77ff7fc0780df3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Comprando un traje.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ff68046dd7ff8e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "toNotion/No pasar por alto.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f9b581fbd7acf20",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcb274eb5400ba5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b635df9aee74c49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c1a6291782dd5249",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:excalidraw",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c47bdc67221a79f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5
+  },
+  "right": {
+    "id": "95dd33cf15ddd21e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9f019e56cad1b81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77f7acce43e27ba6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "c1e98db82fb45ddb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "toNotion/No pasar por alto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a023f16bcdceda1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "toNotion/No pasar por alto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6b783b21acf387cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "toNotion/No pasar por alto.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "8b635df9aee74c49",
+  "lastOpenFiles": [
+    "toNotion",
+    "Inbox/Comprando un traje.md",
+    "toNotion/No pasar por alto.md",
+    "Inbox/Dos semanas.md",
+    "Inbox/Mini-test.md",
+    "Listín/2024-05-11.md",
+    "Listín/2024-09-16.md",
+    "Inbox/Rompecabezas.md",
+    "Inbox/Decadencia.md",
+    "Útiles.md",
+    "Inbox/Mantener simpleza.md",
+    "Pluma/Cartas/A tiempo.md",
+    "Crecimiento/Entendiendo qué me pasa.md",
+    "Crecimiento/Hoy, un poco mejor que ayer.md",
+    "Archivo/Un punto de imperfección.md",
+    "Inbox/Marca personal.md",
+    "Listín/2024-08-23.md",
+    "Listín/2024-08-31.md",
+    "Listín/2024-08-24.md",
+    "Inbox/A mejorar en la casa.md",
+    "Cosas a cambiar o a mejorar en la casa.md",
+    "A mejorar en la casa.md",
+    "Garabatos/Untitled.canvas",
+    "Untitled.canvas",
+    "Garabatos",
+    "Media &Co./PXL_20240511_213105160.jpg",
+    "Plantillas/Diario.md",
+    "Pluma/Cartas/Muerte.md",
+    "Inbox/Mi yo interior.md",
+    "Pluma/Cartas/Irradio de tristeza.md",
+    "Crecimiento",
+    "Inbox",
+    "Inbox/Siervo.mdenc",
+    "Inbox/M.mdenc",
+    "Pluma/Historias",
+    "Pluma/Poemario",
+    "Pluma/Cartas",
+    "Pluma",
+    "Plantillas",
+    "Media &Co./Pasted image 20240617213302.png",
+    "Media &Co./henry-cowell-rs.jpg",
+    "Media &Co./box-toys.png",
+    "Media &Co./Pasted image 20240513232420.png",
+    "Media &Co/Recurso 10 1.png",
+    "Media &Co/Recurso 10 1 1.png",
+    "Recurso 10 1.png",
+    "Recurso 10 1 1.png"
+  ]
+}
