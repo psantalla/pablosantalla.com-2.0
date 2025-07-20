@@ -5,42 +5,26 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
-  <updated>2025-07-18T00:00:00Z</updated>
+  <updated>2025-07-19T00:00:00Z</updated>
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
   <entry>
-    <title>Embracing simplicity</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/embracing-simplicity/" />
-    <updated>2025-07-18T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/embracing-simplicity/</id>
-    <content type="html">&lt;p&gt;Paullum deliquit, ponderibus modulisque suis ratio utitur. Magna pars studiorum, prodita quaerimus. Phasellus laoreet lorem vel dolor tempus vehicula. Gallia est omnis divisa in partes tres, quarum.&lt;/p&gt;
+    <title>Glimpses of the switch</title>
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
+    <updated>2025-07-19T00:00:00Z</updated>
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
+    <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
+&lt;p&gt;I guess I’ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that’s a whole other story. Fun.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Y aquí va otro</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/Tambi%C3%A9n%20tenemos%20otro/" />
+    <title>Simplifying workflows</title>
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/" />
     <updated>2025-01-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/Tambi%C3%A9n%20tenemos%20otro/</id>
-    <content type="html">&lt;p&gt;Con mucho lorem ipsum.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mi primer post desde Obsidian</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/first-post/" />
-    <updated>2025-01-18T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/first-post/</id>
-    <content type="html">&lt;p&gt;Este sería mi primer post, que debe aparecer y está actualizado a 19 de julio.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mi primer post desde Obsidians</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/mu%20bien/" />
-    <updated>2025-01-16T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/mu%20bien/</id>
-    <content type="html">&lt;p&gt;Esta sería la prueba definitiva, supongo.sadf
-Cierto es que esto no debería editarlo, ya que esto está pensado para hacerse desde Obsidian. Pero, por qué no, a ver qué pasa.&lt;/p&gt;
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/</id>
+    <content type="html">&lt;p&gt;This is my first post from Obsidian after configuring an automation.&lt;/p&gt;
 </content>
   </entry>
 </feed>
