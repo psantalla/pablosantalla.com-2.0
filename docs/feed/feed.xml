@@ -5,9 +5,17 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
-  <updated>2025-07-19T23:52:43Z</updated>
+  <updated>2025-01-19T00:00:00Z</updated>
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
+  <entry>
+    <title>Simplifying workflows</title>
+    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/" />
+    <updated>2025-01-19T00:00:00Z</updated>
+    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/</id>
+    <content type="html">&lt;p&gt;This is my first post from Obsidian after configuring an automation.&lt;/p&gt;
+</content>
+  </entry>
 </feed>
