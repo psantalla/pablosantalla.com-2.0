@@ -6,7 +6,7 @@ draft: false
 ---
 It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to [Frank Noirot](https://franknoirot.co/) for the idea.
 
-![[Pasted image 20250720021453.png]]
+![](file_000000004e5c51f7a185c6eeeb6938b6_conversation_id=67f18ec7-8954-800b-ad91-b5f37b950d35&message_id=3bc3626c-4e1d-4431-bf99-147985125a41%20(1).png)
 
 Estamos intentando resolver el problema de la imagen esta.
 
