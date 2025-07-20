@@ -38,10 +38,10 @@ jobs:
 
    - name: Sync posts from Obsidian
      run: |
+       find content/blog -name "*.md" -delete 2>/dev/null || true
+
        if [ -d "temp-obsidian-vault/Public thoughts" ]; then
-         rsync -av --delete --exclude="*.html" "temp-obsidian-vault/Public thoughts/" content/blog/
-       else
-         echo "No Public thoughts folder found"
+         find "temp-obsidian-vault/Public thoughts" -name "*.md" -exec cp {} content/blog/ \; 2>/dev/null || true
        fi
 
        if git diff --quiet && git diff --staged --quiet; then
