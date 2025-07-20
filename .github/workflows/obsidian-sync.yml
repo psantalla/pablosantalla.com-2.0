@@ -50,6 +50,24 @@ jobs:
           echo "No changes detected"
           exit 0
         fi
+    - name: Fix problematic image filenames
+      run: |
+        find content/blog -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.webp" | while read file; do
+          dir=$(dirname "$file")
+          basename=$(basename "$file")
+          extension="${basename##*.}"
+          filename="${basename%.*}"
+
+          if [[ "$filename" =~ [^a-zA-Z0-9._-] ]]; then
+            safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
+            new_file="$dir/${safe_name}.${extension}"
+
+            echo "Renaming: $basename -> ${safe_name}.${extension}"
+            mv "$file" "$new_file"
+
+            find content/blog -name "*.md" -exec sed -i "s|$basename|${safe_name}.${extension}|g" {} \;
+          fi
+        done
     - name: Build site
       run: npm run build
     - name: Commit and push changes
