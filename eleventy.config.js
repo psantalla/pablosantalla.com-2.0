@@ -4,6 +4,7 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import interlinker from "@photogabble/eleventy-plugin-interlinker";
+import markdownIt from "markdown-it";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -14,6 +15,32 @@ export default async function(eleventyConfig) {
 			return false;
 		}
 	});
+
+	// Configure markdown with custom external links
+	const markdownLibrary = markdownIt({
+		html: true,
+		breaks: true,
+		linkify: true
+	});
+
+	// Custom rule for external links
+	const defaultRender = markdownLibrary.renderer.rules.link_open || function(tokens, idx, options, env, self) {
+		return self.renderToken(tokens, idx, options);
+	};
+
+	markdownLibrary.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+		const token = tokens[idx];
+		const href = token.attrGet('href');
+
+		if (href && (href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//'))) {
+			token.attrSet('target', '_blank');
+			token.attrSet('rel', 'noopener noreferrer');
+		}
+
+		return defaultRender(tokens, idx, options, env, self);
+	};
+
+	eleventyConfig.setLibrary("md", markdownLibrary);
 
 	eleventyConfig
 		.addPassthroughCopy({

@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+<<<<<<< Updated upstream
 		<loc>https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/</loc>
 		<lastmod>2025-01-19</lastmod>
 	</url>
@@ -19,16 +20,33 @@
 	<url>
 		<loc>https://pablosantalla.com/pablosantalla.com-2.0/blog/</loc>
 		<lastmod>2025-07-20</lastmod>
+=======
+		<loc>https://pablosantalla.com/pablosantalla.com-2.0/about/</loc>
+		<lastmod>2025-07-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://pablosantalla.com/pablosantalla.com-2.0/blog/</loc>
+		<lastmod>2025-07-18</lastmod>
+>>>>>>> Stashed changes
 	</url>
 	
 	<url>
 		<loc>https://pablosantalla.com/pablosantalla.com-2.0/</loc>
+<<<<<<< Updated upstream
 		<lastmod>2025-07-20</lastmod>
+=======
+		<lastmod>2025-07-18</lastmod>
+>>>>>>> Stashed changes
 	</url>
 	
 	<url>
 		<loc>https://pablosantalla.com/pablosantalla.com-2.0/tags/</loc>
+<<<<<<< Updated upstream
 		<lastmod>2025-07-20</lastmod>
+=======
+		<lastmod>2025-07-18</lastmod>
+>>>>>>> Stashed changes
 	</url>
 	
 	<url>

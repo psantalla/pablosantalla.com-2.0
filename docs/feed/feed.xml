@@ -5,11 +5,16 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
+<<<<<<< Updated upstream
   <updated>2025-07-19T00:00:00Z</updated>
+=======
+  <updated>2025-07-20T01:03:52Z</updated>
+>>>>>>> Stashed changes
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
+<<<<<<< Updated upstream
   <entry>
     <title>Glimpses of the switch</title>
     <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
@@ -27,4 +32,6 @@
     <content type="html">&lt;p&gt;This is my first post from Obsidian after configuring an automation.&lt;/p&gt;
 </content>
   </entry>
+=======
+>>>>>>> Stashed changes
 </feed>
