@@ -5,4 +5,7 @@ tags:
   - jot
 draft: false
 ---
-Things work for a reason, specially in software.
+Things work for a reason, specially in software. And I think you can spot two different work styles around this concept.
+
+- The lazy development.
+- The OMG development.
