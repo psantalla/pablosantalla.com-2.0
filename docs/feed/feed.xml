@@ -5,33 +5,9 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
-<<<<<<< Updated upstream
-  <updated>2025-07-19T00:00:00Z</updated>
-=======
-  <updated>2025-07-20T01:03:52Z</updated>
->>>>>>> Stashed changes
+  <updated>2025-07-20T01:20:05Z</updated>
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
-<<<<<<< Updated upstream
-  <entry>
-    <title>Glimpses of the switch</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
-    <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
-    <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
-&lt;p&gt;I guess I’ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that’s a whole other story. Fun.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Simplifying workflows</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/" />
-    <updated>2025-01-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/Simplifying%20workflows/</id>
-    <content type="html">&lt;p&gt;This is my first post from Obsidian after configuring an automation.&lt;/p&gt;
-</content>
-  </entry>
-=======
->>>>>>> Stashed changes
 </feed>
