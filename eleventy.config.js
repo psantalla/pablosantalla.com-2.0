@@ -97,6 +97,9 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		formats: ["avif", "webp", "auto"],
 		failOnError: false,
+		// Absolute paths /img/... don't work with input: "content" - they become content/img/...
+		// Use relative paths: ../../public/img/image.png for optimization
+		// https://www.11ty.dev/docs/plugins/image/
 		htmlOptions: {
 			imgAttributes: {
 				loading: "lazy",
@@ -136,6 +139,6 @@ export const config = {
 		output: "docs"
 	},
 
-	// Remove when using custom domain
+	// Deploy to subdirectory - uncomment when not using custom domain
 	pathPrefix: "/pablosantalla.com-2.0/",
 };
