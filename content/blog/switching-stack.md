@@ -8,3 +8,8 @@ It looks like I’m getting back to Obsidian for writing down thoughts. This one
 I guess I'll figure out how to design this place in a way that feels right, functionally and aesthetically. But that's a whole other story. Fun.
 
 If you're curious about how this looked in the days before this setup, feel free to check out [psantalla.github.io/pablosantalla.com/](https://psantalla.github.io/pablosantalla.com/).
+<<<<<<< HEAD
+=======
+
+No estoy entendiendo por qué no se hacen cambios aquí.
+>>>>>>> 35b89569a745b8486a7719669c86e0ce1ff4eecd
