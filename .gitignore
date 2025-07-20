@@ -1,8 +1,3 @@
-!content/blog/README.md
-docs/
-content/blog/*.md
-content/blog/*.png
-content/blog/*.jpg
-content/blog/*.jpeg
-content/blog/*.gif
-content/blog/*.webp
+node_modules/
+.cache
+temp-obsidian-vault/
