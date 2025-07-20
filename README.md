@@ -1,63 +1,79 @@
 # Pablo Santalla
 
-Personal blog and portfolio built with [Eleventy](https://www.11ty.dev/). This version keeps things simple and focused on what matters: clear content over visual flourishes.
+Personal blog and portfolio built with [Eleventy](https://www.11ty.dev/). Optimized for seamless content creation from Obsidian with automatic image optimization and zero-conflict publishing.
 
 ## About This Version
 
-After a few design-heavy attempts, I wanted something more practical. This site is built to write and publish with ease. It prioritizes **clarity, structure, and connected ideas**, not fancy visuals.
+Built for continuous writing without technical friction. The entire publishing pipeline runs automatically - write in Obsidian, content appears online within 5 minutes with optimized images and proper formatting.
 
 ## Tech Stack
 
-- **Eleventy v3** – Static site generator, outputs clean HTML without JavaScript
-- **Obsidian** – Daily writing and note-taking, with auto-publishing
-- **GitHub Actions** – Handles deployment and sync
-- **GitHub Pages** – Fast and reliable hosting
+- **Eleventy v3** – Static site generator with automatic image optimization
+- **Obsidian** – Content creation with auto-sync to GitHub
+- **GitHub Actions** – Automated content sync, image processing, and deployment
+- **GitHub Pages** – Hosting with custom domain support
 
-### Eleventy Plugins
+## Key Features
 
-- `@photogabble/eleventy-plugin-interlinker` – Wiki-links and backlinks
-- `@11ty/eleventy-plugin-rss` – RSS support
-- `@11ty/eleventy-plugin-syntaxhighlight` – Syntax highlighting for code
-- `@11ty/eleventy-navigation` – Simple navigation structure
-- `@11ty/eleventy-img` – Image optimization
+### Automated Publishing Pipeline
+- **Obsidian → GitHub** (every 10 minutes via Git plugin)
+- **GitHub → Live Site** (every 5 minutes via Actions)
+- **Image optimization** (AVIF, WebP, PNG with responsive sizing)
+- **Filename sanitization** (handles problematic characters automatically)
 
-### Obsidian Plugins
+### Content Management
+- **Co-located images** – Images stored alongside markdown files
+- **Wiki-links** with backlink support via interlinker plugin
+- **Draft system** – `draft: true` hides content in production
+- **Tag-based organization** with automatic tag pages
 
-- **Git** (by Denis Olehov) – Syncs content to GitHub
-  - Auto-commit: every 10 minutes
-  - Auto-push: every 10 minutes
-  - Auto-commit on stop editing: enabled
-
-## Writing Workflow
-
-Everything starts in Obsidian. Notes are stored in a `Public thoughts` folder, synced automatically, and published in near real time.
-
-1. Write in Obsidian
-2. Git plugin syncs to private repo
-3. GitHub Actions picks up changes (every 5 minutes)
-4. 11ty builds and deploys
-
-## Development
+## Development Setup
 
 ```bash
 npm install
-npm start      # Run local dev server
-npm run build  # Create production build
+npm start      # Local dev server with image processing
+npm run build  # Production build
 ```
 
-## Features
+## Writing Workflow
 
-- Automated publishing from Obsidian to Eleventy
-- Wiki-links between notes
-- Responsive image handling
-- RSS feed
-- Draft support
-- Tag-based structure
+**Blog Content (Obsidian Only)**
+1. Write in `Public thoughts` folder in Obsidian
+2. Images auto-rename to safe filenames
+3. Content syncs and publishes automatically
+4. All formats optimized (AVIF, WebP, fallback PNG)
+
+**Site Configuration (VS Code)**
+- Templates, layouts, and configuration
+- Use "Commit & Sync" in VS Code
+- No conflicts with automated content
+
+## Architecture Decisions
+
+- **Content separation** – Blog content managed via Obsidian, code via VS Code
+- **Image optimization** – Automatic processing with multiple format output
+- **Conflict-free workflow** – Git ignores generated content to prevent merge issues
+- **Path prefix support** – Works with subdirectory deployment (GitHub Pages)
+
+## Obsidian Configuration
+
+**Git Plugin Settings:**
+- Auto-commit: 10 minutes
+- Auto-push: 10 minutes
+- Commit on file change: enabled
+- Processes all file types (markdown + images)
+
+**Required folder structure:**
+```
+Obsidian Vault/
+└── Public thoughts/
+    ├── post-name.md
+    ├── image.png
+    └── ...
+```
 
 ---
 
-*Older versions leaned into design. This one leans into writing.*
-
-*Leaving this here mostly for myself – because I always forget how I set things up.*
+*Previous versions prioritized design complexity. This one prioritizes writing velocity and automated publishing.*
 
 Contact: [pablo@pablosantalla.com](mailto:pablo@pablosantalla.com)
