@@ -2,8 +2,6 @@
 title: Glimpses of the switch
 date: 2025-07-19
 tags:
-  - Jot
-draft: "false"
 ---
 It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to [Frank Noirot](https://franknoirot.co/) for the idea.
 
