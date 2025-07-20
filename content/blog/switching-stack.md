@@ -10,4 +10,4 @@ I guess I'll figure out how to design this place in a way that feels right, func
 
 If you're curious about how this looked in the days before this setup, feel free to check out [psantalla.github.io/pablosantalla.com/](https://psantalla.github.io/pablosantalla.com/).
 
-No estoy entendiendo por qué no se hacen cambios aquí.
+FUNCIONA
