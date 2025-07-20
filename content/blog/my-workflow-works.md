@@ -15,3 +15,4 @@ I’m just posting this to make sure that my workflow works.
 ![](pablo-santalla-about-main.png)
 
 Hi there, this is me.
+Gitignore fixed.
