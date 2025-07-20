@@ -1,59 +1,61 @@
 name: Sync Obsidian Posts
 
 on:
-  repository_dispatch:
-    types: [obsidian-update]
-  workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
+ repository_dispatch:
+   types: [obsidian-update]
+ workflow_dispatch:
+ schedule:
+   - cron: '*/5 * * * *'
 
 jobs:
-  sync-and-deploy:
-    runs-on: ubuntu-latest
+ sync-and-deploy:
+   runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout blog repo
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+   steps:
+   - name: Checkout blog repo
+     uses: actions/checkout@v4
+     with:
+       token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Checkout obsidian vault
-      uses: actions/checkout@v4
-      with:
-        repository: psantalla/obsidian-vault-private
-        token: ${{ secrets.OBSIDIAN_VAULT_TOKEN }}
-        path: temp-obsidian-vault
+   - name: Checkout obsidian vault
+     uses: actions/checkout@v4
+     with:
+       repository: psantalla/obsidian-vault-private
+       token: ${{ secrets.OBSIDIAN_VAULT_TOKEN }}
+       path: temp-obsidian-vault
 
-    - name: Clean vault git data
-      run: rm -rf temp-obsidian-vault/.git
+   - name: Clean vault git data
+     run: rm -rf temp-obsidian-vault/.git
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
+   - name: Setup Node.js
+     uses: actions/setup-node@v4
+     with:
+       node-version: '18'
+       cache: 'npm'
 
-    - name: Install dependencies
-      run: npm ci
+   - name: Install dependencies
+     run: npm ci
 
-    - name: Sync posts from Obsidian
-      run: |
-        if [ -d "temp-obsidian-vault/Public thoughts" ]; then
-          cp -r "temp-obsidian-vault/Public thoughts/"* content/blog/ 2>/dev/null || true
-        fi
+   - name: Sync posts from Obsidian
+     run: |
+       if [ -d "temp-obsidian-vault/Public thoughts" ]; then
+         rsync -av --delete --exclude="*.html" "temp-obsidian-vault/Public thoughts/" content/blog/
+       else
+         echo "No Public thoughts folder found"
+       fi
 
-        if git diff --quiet && git diff --staged --quiet; then
-          echo "No changes detected"
-          exit 0
-        fi
+       if git diff --quiet && git diff --staged --quiet; then
+         echo "No changes detected"
+         exit 0
+       fi
 
-    - name: Build site
-      run: npm run build
+   - name: Build site
+     run: npm run build
 
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Auto-sync from Obsidian: $(date)" || exit 0
-        git push
+   - name: Commit and push changes
+     run: |
+       git config --local user.email "action@github.com"
+       git config --local user.name "GitHub Action"
+       git add .
+       git commit -m "Auto-sync from Obsidian: $(date)" || exit 0
+       git push
