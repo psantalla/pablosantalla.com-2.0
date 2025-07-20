@@ -1,0 +1,1 @@
+Hablar conmigo mismo hace que pueda dar orden a mis ideas. Lo he utilizado anteriormente cuando pienso que tengo una maraña de cosas por hacer; ir en el coche hablando como si supiera lo que estoy diciendo hace que me acabe dando los mejores consejos.

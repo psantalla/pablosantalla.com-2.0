@@ -5,47 +5,9 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
-  <updated>2025-07-20T00:00:00Z</updated>
+  <updated>2025-07-20T22:51:55Z</updated>
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
-  <entry>
-    <title>Checking my own workflow</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/" />
-    <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/</id>
-    <content type="html">&lt;p&gt;I’m just posting this to make sure that my workflow works.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;I’m writing from Obsidian.&lt;/li&gt;
-&lt;li&gt;I’m expecting to see this note as a post on my website.&lt;/li&gt;
-&lt;li&gt;The image below should render.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.avif 3024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.webp 3024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.png&quot; alt=&quot;&quot; width=&quot;3024&quot; height=&quot;4032&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Hi there, this is me.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Glimpses of the switch</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
-    <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
-    <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
-&lt;p&gt;Estamos intentando resolver el problema de la imagen esta. Debe estar importándose la imagen y también con la ruta correcta. Ya veremos.&lt;/p&gt;
-&lt;p&gt;I guess I&#39;ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that&#39;s a whole other story. Fun.&lt;/p&gt;
-&lt;p&gt;If you&#39;re curious about how this looked in the days before this setup, feel free to check out &lt;a href=&quot;https://psantalla.github.io/pablosantalla.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;psantalla.github.io/pablosantalla.com/&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>When a bug isn&#39;t a bug</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/not-real-bugs/" />
-    <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/not-real-bugs/</id>
-    <content type="html">&lt;p&gt;Things work for a reason, specially in software. And I think you can spot two different work styles around this concept.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The lazy development.&lt;/li&gt;
-&lt;li&gt;The OMG development.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
 </feed>

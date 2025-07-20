@@ -1,0 +1,13 @@
+---
+title: Glimpses of the switch
+date: 2025-07-19
+tags: jot
+draft: false
+---
+It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to [Frank Noirot](https://franknoirot.co/) for the idea.
+
+Estamos intentando resolver el problema de la imagen esta. Debe estar importándose la imagen y también con la ruta correcta. Ya veremos.
+
+I guess I'll figure out how to design this place in a way that feels right, functionally and aesthetically. But that's a whole other story. Fun.
+
+If you're curious about how this looked in the days before this setup, feel free to check out [psantalla.github.io/pablosantalla.com/](https://psantalla.github.io/pablosantalla.com/).
