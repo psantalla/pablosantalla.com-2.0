@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Pablo Santalla&#39;s Blog</title>
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
-  <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
-  <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
+  <link href="https://pablosantalla.com/feed/feed.xml" rel="self" />
+  <link href="https://pablosantalla.com/blog" />
   <updated>2025-07-20T00:00:00Z</updated>
-  <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
+  <id>https://pablosantalla.com/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
   <entry>
     <title>Checking My Own Workflow</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/" />
+    <link href="https://pablosantalla.com/blog/my-workflow-works/" />
     <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/</id>
+    <id>https://pablosantalla.com/blog/my-workflow-works/</id>
     <content type="html">&lt;p&gt;I’m just posting this to make sure my workflow works.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I’m writing from Obsidian.&lt;/li&gt;
@@ -22,7 +22,7 @@
 &lt;li&gt;The image below should render.&lt;/li&gt;
 &lt;li&gt;I just (hopefully) fixed the workflow by removing a few lines from &lt;code&gt;.gitignore&lt;/code&gt;, is it working now?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.png&quot; alt=&quot;&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable-fishes-nyx-me.png&amp;width=1024&amp;format=avif&amp;via=transform 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable-fishes-nyx-me.png&amp;width=1024&amp;format=webp&amp;via=transform 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable-fishes-nyx-me.png&amp;width=1024&amp;format=png&amp;via=transform&quot; alt=&quot;&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system &lt;em&gt;should&lt;/em&gt; know how to handle.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Mental note:&lt;/strong&gt; I need to rename files if necessary; I can’t rely on weird names since they may conflict with how 11ty handles filepaths.&lt;/p&gt;
@@ -30,9 +30,9 @@
   </entry>
   <entry>
     <title>Glimpses of the Switch</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
+    <link href="https://pablosantalla.com/blog/switching-stack/" />
     <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
+    <id>https://pablosantalla.com/blog/switching-stack/</id>
     <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
 &lt;p&gt;I guess I&#39;ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that&#39;s a whole other story. &lt;em&gt;Fun&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;If you&#39;re curious about how this looked in the days before this setup, feel free to check out &lt;a href=&quot;https://psantalla.github.io/pablosantalla.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;psantalla.github.io/pablosantalla.com/&lt;/a&gt;.&lt;/p&gt;
