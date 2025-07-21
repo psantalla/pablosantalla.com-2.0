@@ -36,7 +36,6 @@ jobs:
 
     - name: Sync posts from Obsidian
       run: |
-        # Copy new/updated posts from Obsidian
         if [ -d "temp-obsidian-vault/Public thoughts" ]; then
           find "temp-obsidian-vault/Public thoughts" -name "*.md" -exec cp {} content/blog/ \; 2>/dev/null || true
           find "temp-obsidian-vault/Public thoughts" -name "*.png" -exec cp {} content/blog/ \; 2>/dev/null || true
@@ -46,27 +45,6 @@ jobs:
           find "temp-obsidian-vault/Public thoughts" -name "*.webp" -exec cp {} content/blog/ \; 2>/dev/null || true
         fi
 
-    - name: Fix problematic image filenames
-      run: |
-        find content/blog -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.webp" | while read file; do
-          if [ -f "$file" ]; then
-            dir=$(dirname "$file")
-            basename=$(basename "$file")
-            extension="${basename##*.}"
-            filename="${basename%.*}"
-
-            if [[ "$filename" =~ [^a-zA-Z0-9._-] ]]; then
-              safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
-              new_file="$dir/${safe_name}.${extension}"
-
-              echo "Renaming: $basename -> ${safe_name}.${extension}"
-              mv "$file" "$new_file"
-
-              find content/blog -name "*.md" -exec sed -i "s|$basename|${safe_name}.${extension}|g" {} \;
-            fi
-          fi
-        done
-
     - name: Build site
       run: npm run build
 
@@ -75,7 +53,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else

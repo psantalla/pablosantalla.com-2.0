@@ -25,7 +25,7 @@ Built for continuous writing without technical friction. The entire publishing p
 - **Obsidian → GitHub** (every 10 minutes via Git plugin)
 - **GitHub → Live Site** (every 5 minutes via Actions)
 - **Image optimization** (AVIF, WebP, PNG with responsive sizing)
-- **Filename sanitization** (handles problematic characters automatically)
+- **Simple image handling** – Keep image filenames simple in Obsidian (avoid special characters)
 
 ### Content Management
 - **Co-located images** – Images stored alongside markdown files
@@ -46,7 +46,7 @@ npm run build  # Production build
 **Blog Content (Obsidian Only)**
 1. Write in `Public thoughts` folder in Obsidian
 2. Add `draft: true` to frontmatter to hide posts (remove to publish)
-3. Images auto-rename to safe filenames
+3. **Use simple image filenames** (e.g., `my-image.png` instead of complex generated names)
 4. Content syncs and publishes automatically
 5. All formats optimized (AVIF, WebP, fallback PNG)
 
@@ -96,6 +96,12 @@ tags: ["web", "development"]
 draft: true  # Remove this line to publish
 ---
 ```
+
+---
+
+## Known Limitations & Future Improvements
+
+- **Image filenames**: Currently requires manual naming of images in Obsidian with simple, web-safe filenames (letters, numbers, hyphens, underscores only). Automatic filename sanitization for complex filenames is planned for future versions.
 
 ---
 
