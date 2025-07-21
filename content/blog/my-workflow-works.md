@@ -12,7 +12,7 @@ I’m just posting this to make sure my workflow works.
 3. The image below should render.  
 4. I just (hopefully) fixed the workflow by removing a few lines from `.gitignore`, is it working now?
 
-![](blastoise-mable-fishes-nyx-me.png)
+![Some of the Santalla Robey family](blastoise-mable.png)
 
 Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system *should* know how to handle.
 
