@@ -14,4 +14,4 @@ I’m just posting this to make sure my workflow works.
 
 ![](file_000000004e5c51f7a185c6eeeb6938b6_conversation_id=67f18ec7-8954-800b-ad91-b5f37b950d35&message_id=3bc3626c-4e1d-4431-bf99-147985125a41%20(1).png)
 
-Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise, some fish, my wife, and me, with an invalid filename the system *should* know how to handle.
+Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system *should* know how to handle.
