@@ -34,18 +34,17 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Sync posts from Obsidian (auto-delete removed posts)
+    - name: Sync posts from Obsidian
       run: |
-        # Remove all existing blog content
-        rm -rf content/blog/*
-
-        # Copy everything from Obsidian if directory exists
+        # Copy new/updated posts from Obsidian
         if [ -d "temp-obsidian-vault/Public thoughts" ]; then
-          cp -r "temp-obsidian-vault/Public thoughts"/* content/blog/ 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.md" -exec cp {} content/blog/ \; 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.png" -exec cp {} content/blog/ \; 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.jpg" -exec cp {} content/blog/ \; 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.jpeg" -exec cp {} content/blog/ \; 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.gif" -exec cp {} content/blog/ \; 2>/dev/null || true
+          find "temp-obsidian-vault/Public thoughts" -name "*.webp" -exec cp {} content/blog/ \; 2>/dev/null || true
         fi
-
-        # Always add changes to git (will show what was deleted/added)
-        git add content/blog/
 
     - name: Fix problematic image filenames
       run: |
@@ -75,8 +74,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git add .
 
-        # Check if there are any changes to commit
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
