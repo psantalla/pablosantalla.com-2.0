@@ -22,7 +22,7 @@
 &lt;li&gt;The image below should render.&lt;/li&gt;
 &lt;li&gt;I’ve just fixed (hopefully) the workflow by removing some lines on .gitignore – is it working now?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.avif 3024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.webp 3024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/3RD7Rd8UCj-3024.png&quot; alt=&quot;&quot; width=&quot;3024&quot; height=&quot;4032&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/.11ty/image/?src=content%2Fblog%2Fpablo-santalla-about-main.png&amp;width=3024&amp;format=avif&amp;via=transform 3024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/.11ty/image/?src=content%2Fblog%2Fpablo-santalla-about-main.png&amp;width=3024&amp;format=webp&amp;via=transform 3024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/.11ty/image/?src=content%2Fblog%2Fpablo-santalla-about-main.png&amp;width=3024&amp;format=png&amp;via=transform&quot; alt=&quot;&quot; width=&quot;3024&quot; height=&quot;4032&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;Hi there, this is me.&lt;br&gt;
 Gitignore fixed.&lt;/p&gt;
 </content>

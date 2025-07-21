@@ -6,6 +6,8 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<p>Hey! I'm Pablo. I'm building this site, so you might find some unpainted walls here and there. Feel free to check the previous one—more polished, by far—if you're curious: <a href="https://psantalla.github.io/pablosantalla.com/">psantalla.github.io/pablosantalla.com</a>. Or stay here and see what you stumble across.</p>
+<p>I'm a developer by instinct and obsession. Right now I'm front-end dev at <a href="https://idgadvertising.com" target="_blank">IDG Advertising</a>, and I help steer web projects in the right direction at <a href="https://zeroeight.us" target="_blank">zeroeight.us</a>. I'll slowly start bringing in some personal projects here. Now and then, I’ll add a few thoughts <a href="/about">over here</a>, whenever something feels worth sharing—or at least mildly interesting.</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
