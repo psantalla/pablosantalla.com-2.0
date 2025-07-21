@@ -15,3 +15,7 @@ I’m just posting this to make sure my workflow works.
 ![](blastoise-mable-fishes-nyx-me.png)
 
 Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system *should* know how to handle.
+
+---
+
+**Mental note:** I need to rename files if necessary; I can’t rely on weird names since they may conflict with how 11ty handles filepaths.
