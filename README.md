@@ -51,6 +51,12 @@ git add content/about/about.md
 git commit -m "Update about page"
 git sync  # Use this instead of git push to avoid conflicts
 ```
+```bash
+# Homepage:
+git add content/index.njk
+git commit -m "Update homepage"
+git sync
+```
 
 ## Writing Workflow
 
