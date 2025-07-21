@@ -5,35 +5,9 @@
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
   <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
-  <updated>2025-07-20T00:00:00Z</updated>
+  <updated>2025-07-21T03:06:57Z</updated>
   <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
-  <entry>
-    <title>Checking My Own Workflow</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/" />
-    <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/</id>
-    <content type="html">&lt;p&gt;I’m just posting this to make sure my workflow works.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;I’m writing from Obsidian.&lt;/li&gt;
-&lt;li&gt;I expect this note to show up as a post on my website.&lt;/li&gt;
-&lt;li&gt;The image below should render.&lt;/li&gt;
-&lt;li&gt;I just (hopefully) fixed the workflow by removing a few lines from &lt;code&gt;.gitignore&lt;/code&gt;, is it working now?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/content/blog/file_000000004e5c51f7a185c6eeeb6938b6_conversation_id=67f18ec7-8954-800b-ad91-b5f37b950d35&amp;amp;message_id=3bc3626c-4e1d-4431-bf99-147985125a41%20(1).png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise, some fish, my wife, and me, with an invalid filename the system &lt;em&gt;should&lt;/em&gt; know how to handle.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Glimpses of the Switch</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
-    <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
-    <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
-&lt;p&gt;I guess I&#39;ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that&#39;s a whole other story. &lt;em&gt;Fun&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;If you&#39;re curious about how this looked in the days before this setup, feel free to check out &lt;a href=&quot;https://psantalla.github.io/pablosantalla.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;psantalla.github.io/pablosantalla.com/&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
 </feed>
