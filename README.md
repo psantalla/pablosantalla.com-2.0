@@ -15,6 +15,12 @@ Built for continuous writing without technical friction. The entire publishing p
 
 ## Key Features
 
+### Hybrid Content Management System
+- **Blog posts** – Managed exclusively through Obsidian for optimal writing experience
+- **Site configuration** – Templates, layouts, and build settings via code editor
+- **Conflict-free publishing** – Unidirectional sync from Obsidian prevents merge conflicts
+- **Draft-based content control** – Use `draft: true` in frontmatter to hide/show posts
+
 ### Automated Publishing Pipeline
 - **Obsidian → GitHub** (every 10 minutes via Git plugin)
 - **GitHub → Live Site** (every 5 minutes via Actions)
@@ -24,7 +30,7 @@ Built for continuous writing without technical friction. The entire publishing p
 ### Content Management
 - **Co-located images** – Images stored alongside markdown files
 - **Wiki-links** with backlink support via interlinker plugin
-- **Draft system** – `draft: true` hides content in production
+- **Draft system** – `draft: true` hides content in production, no file deletion needed
 - **Tag-based organization** with automatic tag pages
 
 ## Development Setup
@@ -39,20 +45,28 @@ npm run build  # Production build
 
 **Blog Content (Obsidian Only)**
 1. Write in `Public thoughts` folder in Obsidian
-2. Images auto-rename to safe filenames
-3. Content syncs and publishes automatically
-4. All formats optimized (AVIF, WebP, fallback PNG)
+2. Add `draft: true` to frontmatter to hide posts (remove to publish)
+3. Images auto-rename to safe filenames
+4. Content syncs and publishes automatically
+5. All formats optimized (AVIF, WebP, fallback PNG)
 
-**Site Configuration (VS Code)**
-- Templates, layouts, and configuration
-- Use "Commit & Sync" in VS Code
-- No conflicts with automated content
+**Publishing Control:**
+- **Publish**: Remove `draft: true` or omit from frontmatter
+- **Hide**: Add `draft: true` to frontmatter
+- **No file deletion needed** – draft system handles visibility
+
+**Site Configuration (Local Development)**
+- Templates, layouts, and configuration changes
+- Standard Git workflow for code changes
+- Avoid editing blog posts locally to prevent conflicts
 
 ## Architecture Decisions
 
-- **Content separation** – Blog content managed via Obsidian, code via VS Code
+- **Content separation** – Blog content managed via Obsidian, code via any editor
+- **Unidirectional sync** – Obsidian is source of truth for blog posts
+- **Draft-based publishing** – No file deletion, content controlled via frontmatter
 - **Image optimization** – Automatic processing with multiple format output
-- **Conflict-free workflow** – Git ignores generated content to prevent merge issues
+- **Conflict-free workflow** – Separate editing domains prevent merge issues
 - **Path prefix support** – Works with subdirectory deployment (GitHub Pages)
 
 ## Obsidian Configuration
@@ -67,9 +81,20 @@ npm run build  # Production build
 ```
 Obsidian Vault/
 └── Public thoughts/
-    ├── post-name.md
+    ├── post-name.md          # Blog post
+    ├── draft-post.md         # With draft: true in frontmatter
     ├── image.png
     └── ...
+```
+
+**Frontmatter Example:**
+```yaml
+---
+title: "My Blog Post"
+date: 2025-01-01
+tags: ["web", "development"]
+draft: true  # Remove this line to publish
+---
 ```
 
 ---
