@@ -11,6 +11,20 @@
     <name>Pablo Santalla</name>
   </author>
   <entry>
+    <title>This Site&#39;s Todos</title>
+    <link href="https://pablosantalla.com/blog/next/" />
+    <updated>2025-07-20T00:00:00Z</updated>
+    <id>https://pablosantalla.com/blog/next/</id>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;[ ] Write about a few projects&lt;/li&gt;
+&lt;li&gt;[ ] Design a projects page and publish it&lt;/li&gt;
+&lt;li&gt;[ ] Move projects from /blog to /projects&lt;/li&gt;
+&lt;li&gt;[ ] Make this post an actual page&lt;/li&gt;
+&lt;li&gt;[ ] Check and adjust word breaking&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
     <title>Checking My Own Workflow</title>
     <link href="https://pablosantalla.com/blog/my-workflow-works/" />
     <updated>2025-07-20T00:00:00Z</updated>
