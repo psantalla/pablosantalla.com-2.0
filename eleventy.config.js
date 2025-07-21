@@ -13,7 +13,11 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
-		}
+
+	// Add posts collection
+	eleventyConfig.addCollection("posts", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("content/blog/*.md");
+	});		}
 	});
 
 	// Configure markdown with custom external links
