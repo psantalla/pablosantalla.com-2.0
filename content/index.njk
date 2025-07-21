@@ -6,9 +6,8 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
-<p>Hey! I'm Pablo. I'm building this site, so you might find some unpainted walls here and there. Or stay and see what you stumble across.</p>
-<p>→ <a href="https://psantalla.github.io/pablosantalla.com/" target="_blank">Previous, more polished site (for now).</a></p>
-<p>I'm a developer by instinct and obsession. Right now I work on the front end at <a href="https://idgadvertising.com" target="_blank">IDG Advertising</a>, and I help steer web projects in the right direction at <a href="https://zeroeight.us" target="_blank">Zero Eight</a>. Every now and then, I’ll add a few thoughts <a href="/about">over here</a> if I think they might be worth sharing.</p>
+<p>Hey, I’m Pablo. This site is a work in progress, so you’ll find some unpainted walls here and there. Stick around and see what you find—or if you want, check my old site, still up and cleaner but with less to see: <a href="https://psantalla.github.io/pablosantalla.com/" target="_blank">psantalla.github.io/pablosantalla.com</a>.</p>
+<p>I’m a developer by instinct and obsession. I do front end at <a href="https://idgadvertising.com" target="_blank">IDG Advertising</a> and help guide web projects at <a href="https://zeroeight.us" target="_blank">Zero Eight</a>. Slowly, I’ll start moving personal projects here and, when it makes sense, share more about myself <a href="/about">over here</a>.</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
