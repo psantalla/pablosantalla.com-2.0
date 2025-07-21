@@ -39,6 +39,17 @@ Built for continuous writing without technical friction. The entire publishing p
 npm install
 npm start      # Local dev server with image processing
 npm run build  # Production build
+
+# Configure git sync alias (one-time setup)
+git config --global alias.sync '!git pull --no-rebase && git push'
+```
+
+**Local development workflow:**
+```bash
+# Edit files, then:
+git add content/about/about.md
+git commit -m "Update about page"
+git sync  # Use this instead of git push to avoid conflicts
 ```
 
 ## Writing Workflow
@@ -57,7 +68,8 @@ npm run build  # Production build
 
 **Site Configuration (Local Development)**
 - Templates, layouts, and configuration changes
-- Standard Git workflow for code changes
+- Use `git sync` instead of `git push` to avoid branch conflicts
+- Standard Git workflow: `git add` → `git commit` → `git sync`
 - Avoid editing blog posts locally to prevent conflicts
 
 ## Architecture Decisions
@@ -102,6 +114,7 @@ draft: true  # Remove this line to publish
 ## Known Limitations & Future Improvements
 
 - **Image filenames**: Currently requires manual naming of images in Obsidian with simple, web-safe filenames (letters, numbers, hyphens, underscores only). Automatic filename sanitization for complex filenames is planned for future versions.
+- **Git workflow**: Use `git sync` instead of `git push` when working locally to prevent conflicts with Obsidian's automatic commits.
 
 ---
 
