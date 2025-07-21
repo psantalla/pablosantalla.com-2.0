@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
+
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
@@ -13,67 +14,72 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Checkout obsidian vault
       uses: actions/checkout@v4
       with:
         repository: psantalla/obsidian-vault-private
         token: ${{ secrets.OBSIDIAN_VAULT_TOKEN }}
         path: temp-obsidian-vault
+
     - name: Clean vault git data
       run: rm -rf temp-obsidian-vault/.git
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
+
     - name: Install dependencies
       run: npm ci
-    - name: Sync posts from Obsidian
+
+    - name: Sync posts from Obsidian (auto-delete removed posts)
       run: |
-        find content/blog -name "*.md" -delete 2>/dev/null || true
-        find content/blog -name "*.png" -delete 2>/dev/null || true
-        find content/blog -name "*.jpg" -delete 2>/dev/null || true
-        find content/blog -name "*.jpeg" -delete 2>/dev/null || true
-        find content/blog -name "*.gif" -delete 2>/dev/null || true
-        find content/blog -name "*.webp" -delete 2>/dev/null || true
+        # Remove all existing blog content
+        rm -rf content/blog/*
+
+        # Copy everything from Obsidian if directory exists
         if [ -d "temp-obsidian-vault/Public thoughts" ]; then
-          # Copiar archivos markdown
-          find "temp-obsidian-vault/Public thoughts" -name "*.md" -exec cp {} content/blog/ \; 2>/dev/null || true
-          # Copiar imágenes
-          find "temp-obsidian-vault/Public thoughts" -name "*.png" -exec cp {} content/blog/ \; 2>/dev/null || true
-          find "temp-obsidian-vault/Public thoughts" -name "*.jpg" -exec cp {} content/blog/ \; 2>/dev/null || true
-          find "temp-obsidian-vault/Public thoughts" -name "*.jpeg" -exec cp {} content/blog/ \; 2>/dev/null || true
-          find "temp-obsidian-vault/Public thoughts" -name "*.gif" -exec cp {} content/blog/ \; 2>/dev/null || true
-          find "temp-obsidian-vault/Public thoughts" -name "*.webp" -exec cp {} content/blog/ \; 2>/dev/null || true
+          cp -r "temp-obsidian-vault/Public thoughts"/* content/blog/ 2>/dev/null || true
         fi
-        if git diff --quiet && git diff --staged --quiet; then
-          echo "No changes detected"
-          exit 0
-        fi
+
+        # Always add changes to git (will show what was deleted/added)
+        git add content/blog/
+
     - name: Fix problematic image filenames
       run: |
         find content/blog -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" -o -name "*.gif" -o -name "*.webp" | while read file; do
-          dir=$(dirname "$file")
-          basename=$(basename "$file")
-          extension="${basename##*.}"
-          filename="${basename%.*}"
+          if [ -f "$file" ]; then
+            dir=$(dirname "$file")
+            basename=$(basename "$file")
+            extension="${basename##*.}"
+            filename="${basename%.*}"
 
-          if [[ "$filename" =~ [^a-zA-Z0-9._-] ]]; then
-            safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
-            new_file="$dir/${safe_name}.${extension}"
+            if [[ "$filename" =~ [^a-zA-Z0-9._-] ]]; then
+              safe_name=$(echo "$filename" | sed 's/[^a-zA-Z0-9._-]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
+              new_file="$dir/${safe_name}.${extension}"
 
-            echo "Renaming: $basename -> ${safe_name}.${extension}"
-            mv "$file" "$new_file"
+              echo "Renaming: $basename -> ${safe_name}.${extension}"
+              mv "$file" "$new_file"
 
-            find content/blog -name "*.md" -exec sed -i "s|$basename|${safe_name}.${extension}|g" {} \;
+              find content/blog -name "*.md" -exec sed -i "s|$basename|${safe_name}.${extension}|g" {} \;
+            fi
           fi
         done
+
     - name: Build site
       run: npm run build
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Auto-sync from Obsidian: $(date)" || exit 0
-        git push
+
+        # Check if there are any changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-sync from Obsidian: $(date)"
+          git push
+        fi
