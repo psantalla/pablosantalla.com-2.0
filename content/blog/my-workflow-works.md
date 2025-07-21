@@ -1,0 +1,17 @@
+---
+title: Checking My Own Workflow
+date: 2025-07-20
+tags:
+  - jot
+draft: false
+---
+I’m just posting this to make sure my workflow works.
+
+1. I’m writing from Obsidian.  
+2. I expect this note to show up as a post on my website.  
+3. The image below should render.  
+4. I just (hopefully) fixed the workflow by removing a few lines from `.gitignore`, is it working now?
+
+![](blastoise-mable-fishes-nyx-me.png)
+
+Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system *should* know how to handle.
