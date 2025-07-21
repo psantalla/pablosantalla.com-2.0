@@ -6,6 +6,8 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<p>I found 11ty really useful to update my site easily, without friction, so I’m in that process of making it all work. I want to prioritize creating content over aesthetics. But if you’re curious to see what a build from scratch with mild attention to looks feels like, my old site is still up. Feel free to check it out <a href="https://psantalla.github.io/pablosantalla.com/" target="_blank">here</a>.</p>
+<p>Otherwise, you’re welcome to stick around and maybe stumble across an unpainted wall or two.</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
