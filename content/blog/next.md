@@ -11,4 +11,4 @@ draft: false
 - [ ] Make this post an actual page
 - [ ] Check and adjust word breaking
 
-Can I actually 
+Can I actually publish from my phone?
