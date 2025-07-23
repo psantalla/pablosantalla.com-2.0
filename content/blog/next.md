@@ -13,5 +13,3 @@ draft: false
 
 Can I actually publish from my phone? Not exactly.
 
-
-

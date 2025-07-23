@@ -5,12 +5,16 @@ tags:
   - reflection
 draft: false
 ---
-mental clarity, but also we feel satisfaction during the process – a dangerous satisfaction actually. We lost our minds into the segmentation process, and we itemize, treat figures as matter.
+We humans are obsessed with classifying and organizing, drawn to ideas that look great on paper.
 
-And then it explode.
+We all do it: pens with pens, books with books. It seems wired into us.
 
-We forget about natural connections and the consequences of disconnecting. We’re ready to put the wooden barrels at the back of the warehouse, and we’re childishness petrified when we see the wine that leaked and it's running out through the front door.
+I think we do it for mental clarity, but also because the process feels satisfying—a dangerous kind of satisfying. We get lost in the segmentation, start treating numbers like objects.
 
-Even the more complex outcomes can be explained by the nature of connections. DNA and protein generation, polinización, success of a tribe, wealth, transport. It doesn't, matter, and chances are you are able to generate outcomes you’re not able to imagine. Go talk to a photographer, an economist, a bread maker, literally anyone who may preserve ideas you never though about collecting to. New connections, no matter their nature, create new outcomes, repeated connections create predictable outcomes. You can pick the stage you want to be at.
+And then it blows up.
 
-Let's put the barrels in an intentional, what we consider chaotic place, surrounded by the rice, the beans, the veggies, and the pans. Cause chances are we’ll see the barrel leaking in one of those travels a preparar la sopa con arroz.
+We forget about natural connections and the consequences of breaking them. We push the wooden barrels to the back of the warehouse, then stand there confused when the wine leaks out through the front door.
+
+Even the most complex things come down to connections—DNA and proteins, pollination, the rise of a tribe, wealth, transport. It doesn’t matter. And chances are, you can create outcomes you’re not even able to imagine yet. Talk to a photographer, an economist, a baker—anyone holding onto ideas you never thought to link up with. New connections bring new outcomes. Repeated ones, the same results. You choose the stage.
+
+So maybe let’s keep the barrels somewhere they don’t belong—next to the rice, the beans, the veggies, the pans. Somewhere we actually go. Because maybe, while grabbing something for dinner, we’ll catch the leak before it floods the place.
