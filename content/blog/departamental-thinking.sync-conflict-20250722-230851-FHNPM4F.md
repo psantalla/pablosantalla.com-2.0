@@ -3,7 +3,7 @@ title: Departamental Thinking
 date: 2025-07-22
 tags:
   - reflection
-draft: false
+draft: true
 ---
 Who had that idea of dividing employees in departments? We humans are obsessed with classifying and organizing, we're obsessed with ideas that look great on paper.
 
