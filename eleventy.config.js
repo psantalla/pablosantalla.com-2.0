@@ -145,5 +145,5 @@ export const config = {
 	},
 
 	// Deploy to subdirectory - uncomment when not using custom domain
-	pathPrefix: "/pablosantalla.com-2.0/",
+	// pathPrefix: "/pablosantalla.com-2.0/",
 };

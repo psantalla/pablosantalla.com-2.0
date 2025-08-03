@@ -3,18 +3,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Pablo Santalla&#39;s Blog</title>
   <subtitle>From poems to code, maybe ocasinal letter to my daughter so she&#39;ll eventually read them.</subtitle>
-  <link href="https://pablosantalla.com/pablosantalla.com-2.0/feed/feed.xml" rel="self" />
-  <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog" />
+  <link href="https://pablosantalla.com/feed/feed.xml" rel="self" />
+  <link href="https://pablosantalla.com/blog" />
   <updated>2025-07-22T00:00:00Z</updated>
-  <id>https://pablosantalla.com/pablosantalla.com-2.0/blog</id>
+  <id>https://pablosantalla.com/blog</id>
   <author>
     <name>Pablo Santalla</name>
   </author>
   <entry>
     <title>Departamental Thinking</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/departamental-thinking/" />
+    <link href="https://pablosantalla.com/blog/departamental-thinking.sync-conflict-20250722-230851-FHNPM4F/" />
     <updated>2025-07-22T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/departamental-thinking/</id>
+    <id>https://pablosantalla.com/blog/departamental-thinking.sync-conflict-20250722-230851-FHNPM4F/</id>
+    <content type="html">&lt;p&gt;Who had that idea of dividing employees in departments? We humans are obsessed with classifying and organizing, we&#39;re obsessed with ideas that look great on paper.&lt;/p&gt;
+&lt;p&gt;We all do it, the pens with the pens, and the books with the books. It seems rooted to our being.&lt;/p&gt;
+&lt;p&gt;I&#39;ve just come up to the conclusion that we do it for mental clarity, but also we feel satisfaction during the process – a dangerous satisfaction actually. We lost our minds into the segmentation process, and we itemize, treat figures as matter.&lt;/p&gt;
+&lt;p&gt;And then it explode.&lt;/p&gt;
+&lt;p&gt;We forget about natural connections and the consequences of disconnecting. We’re ready to put the wooden barrels at the back of the warehouse, and we’re childishness petrified when we see the wine that leaked and it&#39;s running out through the front door.&lt;/p&gt;
+&lt;p&gt;Even the more complex outcomes can be explained by the nature of connections. DNA and protein generation, polinización, success of a tribe, wealth, transport. It doesn&#39;t, matter, and chances are you are able to generate outcomes you’re not able to imagine. Go talk to a photographer, an economist, a bread maker, literally anyone who may preserve ideas you never though about collecting to. New connections, no matter their nature, create new outcomes, repeated connections create predictable outcomes. You can pick the stage you want to be at.&lt;/p&gt;
+&lt;p&gt;Let&#39;s put the barrels in an intentional, what we consider chaotic place, surrounded by the rice, the beans, the veggies, and the pans. Cause chances are we’ll see the barrel leaking in one of those travels a preparar la sopa con arroz.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Departamental Thinking</title>
+    <link href="https://pablosantalla.com/blog/departamental-thinking/" />
+    <updated>2025-07-22T00:00:00Z</updated>
+    <id>https://pablosantalla.com/blog/departamental-thinking/</id>
     <content type="html">&lt;p&gt;We humans are obsessed with classifying and organizing, drawn to ideas that look great on paper.&lt;/p&gt;
 &lt;p&gt;We all do it: pens with pens, books with books. It seems wired into us.&lt;/p&gt;
 &lt;p&gt;I think we do it for mental clarity, but also because the process feels satisfying—a dangerous kind of satisfying. We get lost in the segmentation, start treating numbers like objects.&lt;/p&gt;
@@ -26,9 +40,9 @@
   </entry>
   <entry>
     <title>This Site&#39;s Todos</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/next/" />
+    <link href="https://pablosantalla.com/blog/next/" />
     <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/next/</id>
+    <id>https://pablosantalla.com/blog/next/</id>
     <content type="html">&lt;ul&gt;
 &lt;li&gt;[ ] Write about a few projects&lt;/li&gt;
 &lt;li&gt;[ ] Design a project page and publish it&lt;/li&gt;
@@ -41,9 +55,9 @@
   </entry>
   <entry>
     <title>Checking My Own Workflow</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/" />
+    <link href="https://pablosantalla.com/blog/my-workflow-works/" />
     <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/</id>
+    <id>https://pablosantalla.com/blog/my-workflow-works/</id>
     <content type="html">&lt;p&gt;I’m just posting this to make sure my workflow works.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I’m writing from Obsidian.&lt;/li&gt;
@@ -51,17 +65,25 @@
 &lt;li&gt;The image below should render.&lt;/li&gt;
 &lt;li&gt;I just (hopefully) fixed the workflow by removing a few lines from &lt;code&gt;.gitignore&lt;/code&gt;, is it working now?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.webp 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/pablosantalla.com-2.0/blog/my-workflow-works/5SOWZ2CUqg-1024.png&quot; alt=&quot;Some of the Santalla Robey family&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable.png&amp;width=1024&amp;format=avif&amp;via=transform 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable.png&amp;width=1024&amp;format=webp&amp;via=transform 1024w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/.11ty/image/?src=content%2Fblog%2Fblastoise-mable.png&amp;width=1024&amp;format=png&amp;via=transform&quot; alt=&quot;Some of the Santalla Robey family&quot; width=&quot;1024&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;p&gt;Hi there, this is a weird AI-generated image of Mable (our dog), Blastoise (self-explanatory, I hope), some fish, my wife, and me, with an invalid filename the system &lt;em&gt;should&lt;/em&gt; know how to handle.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Mental note:&lt;/strong&gt; I need to rename files if necessary; I can’t rely on weird names since they may conflict with how 11ty handles filepaths.&lt;/p&gt;
 </content>
   </entry>
   <entry>
+    <title>Changelog</title>
+    <link href="https://pablosantalla.com/blog/changelog/" />
+    <updated>2025-07-20T00:00:00Z</updated>
+    <id>https://pablosantalla.com/blog/changelog/</id>
+    <content type="html">&lt;p&gt;[ ] Make this page&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Glimpses of the Switch</title>
-    <link href="https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/" />
+    <link href="https://pablosantalla.com/blog/switching-stack/" />
     <updated>2025-07-19T00:00:00Z</updated>
-    <id>https://pablosantalla.com/pablosantalla.com-2.0/blog/switching-stack/</id>
+    <id>https://pablosantalla.com/blog/switching-stack/</id>
     <content type="html">&lt;p&gt;It looks like I’m getting back to Obsidian for writing down thoughts. This one was actually written there, and thanks to some behind-the-scenes voodoo, it gets published straight to this site. Cheers to &lt;a href=&quot;https://franknoirot.co/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Frank Noirot&lt;/a&gt; for the idea.&lt;/p&gt;
 &lt;p&gt;I guess I&#39;ll figure out how to design this place in a way that feels right, functionally and aesthetically. But that&#39;s a whole other story. &lt;em&gt;Fun&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;If you&#39;re curious about how this looked in the days before this setup, feel free to check out &lt;a href=&quot;https://psantalla.github.io/pablosantalla.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;psantalla.github.io/pablosantalla.com/&lt;/a&gt;.&lt;/p&gt;
