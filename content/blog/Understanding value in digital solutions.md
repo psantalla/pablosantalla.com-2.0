@@ -1,12 +1,10 @@
 ---
-title: Understanding value in digital solutions
+title: Understanding Value in Digital Solutions
 date: 2025-08-15
 tags:
-  - jot
+  - essentialism
 draft: false
 ---
-## Understanding value in digital solutions
-
 Pretty recently I had to work with a low-value solution. It was complex, dense, with many steps, a specific execution order, dependencies, exceptions, and control points. Not worth describing in detail. You can probably think of something similar and it would apply the same way.
 
 I’ve been thinking about value because in the tangible world it’s relatively easy to detect and measure, at least for basic things. And really, it’s easier to see in the basic ones. If you were thinking of a car, that’s not basic. That’s already tricky territory: part of its value comes from the tangible fact that it gets us from A to B safely, but there is also the intangible side, recognition, validation, and status. We’ll get back to that later, but for now let’s look at something simpler: a plate.
@@ -15,9 +13,9 @@ The value of a plate is obvious. It stops us from putting food directly on the t
 
 Now, back to that overcomplicated digital solution we used, one that didn’t quite fit naturally.  
 
-**Caveat applied to digital solutions:** the amount of headaches a solution is likely to bring, even at mature development stages.
+**Caveat Applied to Digital Solutions:** the amount of headaches a solution is likely to bring, even at mature development stages.
 
-![](framed-negative.png)
+![](framed-negative.png)  
 *This is usually how we start framing the topic, isolating problem and solution. We tend to think our solutions are clean, with no hidden costs or carbon footprint. It’s a framework that’s very far from reality.*
 
 Every valuable object comes with a caveat. With a plate, you need to clean it after use. And yes, that leads into another caveat, using the dishwasher 😅 but let’s not go there now.
@@ -29,28 +27,28 @@ Simple, right? If to use a plate I had to open a hatch in the ceiling, climb int
 
 This says a lot about the weight of a solution’s caveat and how simplification, finding the most direct execution path, keeps that weight in check. Often, by offering a more realistic solution, you keep the caveat from getting out of hand. That’s what you want to keep an eye on.
 
-### There’s no such thing as a caveat-zero solution
+### There’s No Such Thing as a Caveat-Zero Solution
 
 If it doesn’t exist in the physical world, it doesn’t exist in the digital one either. Friction can be minimal, but it will always be there. Thinking it isn’t is risky. Any app that makes your life easier has already given you extra work or is about to. It depends on things you can’t control, internet connection, battery, whatever. Caveat-zero simply doesn’t exist.
 
 So the mission is to know the range of caveat you’re willing to handle and not step outside of it.
 
-## Why this frame matters
+## Why This Frame Matters
 
 You can’t solve a problem without focus, and the problem is that often we define the solution and then keep our focus there. But you could choose between:
 
-- Focus on the problem (how do I solve it?)  
-- Focus on the solution (how do I make it real?)  
+- Focus on the problem (how do I solve it?).
+- Focus on the solution (how do I make it real?).  
 - Focus on the caveat of your solution.
 
-## Other classic approaches
+## Other Classic Approaches
 
 Usually, digital products are tackled in phases. I think that’s fine, it keeps the focus on the solution without letting it wander too much.
 
 That’s where v1, v2.0 and so on come from. They work if you set the solution’s value before you even get there. What doesn’t work is moving forward with the solution and then saying, “Oh, makes sense to launch a 2.0 now.”  
 (Disclaimer: if that’s the pattern, you might be better off focusing on the caveat instead.)
 
-## The trap of perceived value
+## The Trap of Perceived Value
 
 I wouldn’t want to finish writing about this without pointing out another problem to watch for when providing solutions. Earlier, I mentioned the car example for a reason. Its value is diluted by ego, recognition, and a sense of belonging, which can easily block us.
 

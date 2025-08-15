@@ -11,16 +11,15 @@
     <name>Pablo Santalla</name>
   </author>
   <entry>
-    <title>Understanding value in digital solutions</title>
+    <title>Understanding Value in Digital Solutions</title>
     <link href="https://pablosantalla.com/blog/Understanding%20value%20in%20digital%20solutions/" />
     <updated>2025-08-15T00:00:00Z</updated>
     <id>https://pablosantalla.com/blog/Understanding%20value%20in%20digital%20solutions/</id>
-    <content type="html">&lt;h2 id=&quot;understanding-value-in-digital-solutions&quot;&gt;Understanding value in digital solutions&lt;/h2&gt;
-&lt;p&gt;Pretty recently I had to work with a low-value solution. It was complex, dense, with many steps, a specific execution order, dependencies, exceptions, and control points. Not worth describing in detail. You can probably think of something similar and it would apply the same way.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Pretty recently I had to work with a low-value solution. It was complex, dense, with many steps, a specific execution order, dependencies, exceptions, and control points. Not worth describing in detail. You can probably think of something similar and it would apply the same way.&lt;/p&gt;
 &lt;p&gt;I’ve been thinking about value because in the tangible world it’s relatively easy to detect and measure, at least for basic things. And really, it’s easier to see in the basic ones. If you were thinking of a car, that’s not basic. That’s already tricky territory: part of its value comes from the tangible fact that it gets us from A to B safely, but there is also the intangible side, recognition, validation, and status. We’ll get back to that later, but for now let’s look at something simpler: a plate.&lt;/p&gt;
 &lt;p&gt;The value of a plate is obvious. It stops us from putting food directly on the table, keeps hard-to-clean surfaces from getting dirty, helps prevent hygiene issues, and so on.&lt;/p&gt;
 &lt;p&gt;Now, back to that overcomplicated digital solution we used, one that didn’t quite fit naturally.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Caveat applied to digital solutions:&lt;/strong&gt; the amount of headaches a solution is likely to bring, even at mature development stages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Caveat Applied to Digital Solutions:&lt;/strong&gt; the amount of headaches a solution is likely to bring, even at mature development stages.&lt;/p&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;/blog/Understanding value in digital solutions/sTRDhwaHaP-1434.avif 1434w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;/blog/Understanding value in digital solutions/sTRDhwaHaP-1434.webp 1434w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://pablosantalla.com/blog/Understanding%20value%20in%20digital%20solutions/sTRDhwaHaP-1434.png&quot; alt=&quot;&quot; width=&quot;1434&quot; height=&quot;750&quot;&gt;&lt;/picture&gt;&lt;br&gt;
 &lt;em&gt;This is usually how we start framing the topic, isolating problem and solution. We tend to think our solutions are clean, with no hidden costs or carbon footprint. It’s a framework that’s very far from reality.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Every valuable object comes with a caveat. With a plate, you need to clean it after use. And yes, that leads into another caveat, using the dishwasher 😅 but let’s not go there now.&lt;/p&gt;
@@ -28,21 +27,21 @@
 &lt;em&gt;The solution only makes sense if it requires less effort than handling the problem plus the caveat of the solution combined.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Simple, right? If to use a plate I had to open a hatch in the ceiling, climb into the attic, bring it down, unpack it, glue porcelain pieces together, wait for them to set, and then clean it, I’d probably end up eating straight off the table.&lt;/p&gt;
 &lt;p&gt;This says a lot about the weight of a solution’s caveat and how simplification, finding the most direct execution path, keeps that weight in check. Often, by offering a more realistic solution, you keep the caveat from getting out of hand. That’s what you want to keep an eye on.&lt;/p&gt;
-&lt;h3 id=&quot;there-s-no-such-thing-as-a-caveat-zero-solution&quot;&gt;There’s no such thing as a caveat-zero solution&lt;/h3&gt;
+&lt;h3 id=&quot;there-s-no-such-thing-as-a-caveat-zero-solution&quot;&gt;There’s No Such Thing as a Caveat-Zero Solution&lt;/h3&gt;
 &lt;p&gt;If it doesn’t exist in the physical world, it doesn’t exist in the digital one either. Friction can be minimal, but it will always be there. Thinking it isn’t is risky. Any app that makes your life easier has already given you extra work or is about to. It depends on things you can’t control, internet connection, battery, whatever. Caveat-zero simply doesn’t exist.&lt;/p&gt;
 &lt;p&gt;So the mission is to know the range of caveat you’re willing to handle and not step outside of it.&lt;/p&gt;
-&lt;h2 id=&quot;why-this-frame-matters&quot;&gt;Why this frame matters&lt;/h2&gt;
+&lt;h2 id=&quot;why-this-frame-matters&quot;&gt;Why This Frame Matters&lt;/h2&gt;
 &lt;p&gt;You can’t solve a problem without focus, and the problem is that often we define the solution and then keep our focus there. But you could choose between:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Focus on the problem (how do I solve it?)&lt;/li&gt;
-&lt;li&gt;Focus on the solution (how do I make it real?)&lt;/li&gt;
+&lt;li&gt;Focus on the problem (how do I solve it?).&lt;/li&gt;
+&lt;li&gt;Focus on the solution (how do I make it real?).&lt;/li&gt;
 &lt;li&gt;Focus on the caveat of your solution.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;other-classic-approaches&quot;&gt;Other classic approaches&lt;/h2&gt;
+&lt;h2 id=&quot;other-classic-approaches&quot;&gt;Other Classic Approaches&lt;/h2&gt;
 &lt;p&gt;Usually, digital products are tackled in phases. I think that’s fine, it keeps the focus on the solution without letting it wander too much.&lt;/p&gt;
 &lt;p&gt;That’s where v1, v2.0 and so on come from. They work if you set the solution’s value before you even get there. What doesn’t work is moving forward with the solution and then saying, “Oh, makes sense to launch a 2.0 now.”&lt;br&gt;
 (Disclaimer: if that’s the pattern, you might be better off focusing on the caveat instead.)&lt;/p&gt;
-&lt;h2 id=&quot;the-trap-of-perceived-value&quot;&gt;The trap of perceived value&lt;/h2&gt;
+&lt;h2 id=&quot;the-trap-of-perceived-value&quot;&gt;The Trap of Perceived Value&lt;/h2&gt;
 &lt;p&gt;I wouldn’t want to finish writing about this without pointing out another problem to watch for when providing solutions. Earlier, I mentioned the car example for a reason. Its value is diluted by ego, recognition, and a sense of belonging, which can easily block us.&lt;/p&gt;
 &lt;p&gt;We often assign it an unrealistic value. This is even more noticeable in the digital environment. The feeling you have toward your product has nothing to do with what others will feel about it, for several painful reasons:&lt;/p&gt;
 &lt;ol&gt;
@@ -66,21 +65,6 @@
 &lt;p&gt;We forget about natural connections and the consequences of breaking them. We push the wooden barrels to the back of the warehouse, then stand there confused when the wine leaks out through the front door.&lt;/p&gt;
 &lt;p&gt;Even the most complex things come down to connections. DNA and proteins. Pollination. The rise of a tribe. Wealth. Transport. It doesn’t matter. And chances are, you can create outcomes you’re not even able to imagine yet. Talk to a photographer, an economist, a baker. Anyone holding onto ideas you never thought to link up with. New connections bring new outcomes. Repeated ones, the same results. You choose the stage.&lt;/p&gt;
 &lt;p&gt;So maybe let’s keep the barrels somewhere they don’t belong. Next to the rice, the beans, the veggies, the pans. Somewhere we actually go. Because maybe, while grabbing something for dinner, we’ll catch the leak before it floods the place.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This Site&#39;s Todos</title>
-    <link href="https://pablosantalla.com/blog/next/" />
-    <updated>2025-07-20T00:00:00Z</updated>
-    <id>https://pablosantalla.com/blog/next/</id>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;[ ] Write about a few projects&lt;/li&gt;
-&lt;li&gt;[ ] Design a project page and publish it&lt;/li&gt;
-&lt;li&gt;[ ] Move projects from /blog to /projects&lt;/li&gt;
-&lt;li&gt;[ ] Make this post an actual page&lt;/li&gt;
-&lt;li&gt;[ ] Check and adjust word breaking&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Can I actually publish from my phone? Not exactly.&lt;/p&gt;
 </content>
   </entry>
   <entry>
