@@ -57,5 +57,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-sync from Obsidian: $(date)"
-          git push
+          git pull origin main --rebase
+          git push origin main
         fi
